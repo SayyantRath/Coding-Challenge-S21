@@ -29,7 +29,7 @@ Regardless if you can or cannot answer the question, provide a short explanation
 
 Using the BioPython library, the model above displays a **circular diagram of the Tomato Curly Stunt Virus Genome's Features**. The "gene" type Features are placed on the **two innermost levels** representing plus (red) and minus (green) strands. The coding sequence (CDS) type features, regions of the nucleotides which actually code proteins, are placed together on the **outermost layer (no strand).** The "gene" type features have been shaped using **"ARROW" sigils with varying shaft thickness** in order to allow for easy comparison of starting and ending locations of each Feature along with individual comparisons to other features since some features overlap. Next to each "gene" type Feature is the label detailing the specific gene being referenced.
 
-Prior to this challenge, I have had no experience using Python for computational biology or anything of the sort. As a result, thinking on my feet and finding efficient ways to answer the prompt were critical for coming up with this solution.
+Prior to this challenge, I have had no experience using Python for computational biology or anything of the sort. As a result, thinking on my feet and finding efficient ways to answer the prompt were critical for coming up with this solution. While the code specific methodology is commented in the file "GenomeMapper.py," here is a basic overview of the process used to create the model above:
 
 **1) Understanding how data is stored in a genbank file:**
 
